@@ -1,0 +1,537 @@
+*{
+    font-family: 'Lora', serif;
+    padding: 0em;
+    margin: 0em;
+}
+
+body{
+    background-color: white;
+    background-image: url(../imagen/fondobody.jpg);
+    margin: auto;
+    max-width: 1300px;
+}
+
+
+.contenido-lateral, .pie-pagina, .contenido{
+    padding: 1em 2em;
+}
+
+.contenido-lateral, .contenido, .pie-pagina{
+    float: left;
+    box-sizing: border-box;
+}
+
+.encabezado{
+    width: 100%;
+    background-image: url(../imagen/joyeria.jpg);
+    background-size: contain;
+    background-color: black;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 150px;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #ffdcdc,
+                 0 0 20px #000000, 
+                 0 0 30px #fff, 
+                 0 0 40px #000000;
+}
+
+.encabezado .titulobanner{
+    padding-left: 10em;
+}
+
+.encabezado .titulobanner h1{
+    padding: 0.5em;
+    font-size: 3em;
+    padding: 0.05em;
+    font-family: 'Great Vibes', cursive;
+    font-size: 5em;
+    text-shadow: 0 0 10px #ffbaba, 0 0 20px #fff79c, 0 0 30px #ffeaea, 0 0 40px #000000;
+}
+
+.encabezado .titulobanner h3{
+    width: 32.7%;
+    float: left;
+    padding: 0.1em;
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.7em;
+}
+
+.navegation{
+    position: relative;
+    width: 100%;
+    height: 2.8em;
+    background-color: black;
+    color: white;
+    background-image: url(../imagen/banner.jpg);
+    background-size: cover;
+    border-top: 0.4em solid #ac9b71;
+    border-bottom: 0.4em solid #ac9b71;
+}
+
+.navegation ul{
+    position: relative;
+    box-sizing: content-box;
+    align-content: center;
+    left: 14em;    
+}
+
+.navegation ul li {
+    position: relative;
+    background-color: transparent;
+    display:inline-block;
+    padding: 1em 2em 0em 1.1em;;
+    min-width: 6.5%;
+    position: static;
+}
+
+#push{
+    visibility: hidden;
+}
+
+.navegation ul li a{
+    font-family: 'Great Vibes', cursive;
+    font-size: 1.2em;
+    color:#939393;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: #efe2b6;
+    text-shadow: 0 0 1px #ffffff,
+                 0 0 5px #000000,
+                 0 0 10px #deca86;  
+}
+
+.seccion1{
+    margin-top: 1em;
+    border-top: 0.4em solid #ac9b71;
+    border-bottom: 0.4em solid #ac9b71;
+    
+}
+
+.seccion1 figure{
+    width: 100%;
+    background-color: white;
+}
+
+.seccion1 figure img{
+    width: 100%;
+    max-height: 20em;
+    max-width: 35em;
+}
+
+.contenido{
+    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-image: url(../imagen/fondobody.jpg);
+}
+
+.contenido-lateral{
+    width: 100%;
+    background-color: antiquewhite;
+    height: 500px;
+}
+
+.post{
+    width: 24%;
+    margin: 3.5%;
+    margin-bottom: 1em;
+    border-radius: 2em;
+    border:0.5em solid white;
+    float: left;  
+}
+
+.post:hover{
+    transition: transform 0.2s linear;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.post .articulo{
+    background-image: url(../imagen/bodywallpaper.jpg);
+    background-color: transparent;
+    border-radius: 1em;
+    height: 17em;
+}
+
+.post .tituloarticulo{
+    width: 100%;
+    text-align: center;
+    padding-bottom:1em;
+    margin-bottom: 1em;
+    color: beige;
+    border-radius: 1em 1em 0em 0em;
+    background-image: url(../imagen/banner.jpg);
+}
+
+.post .tituloarticulo, h1{
+    padding-top: 1em;
+}
+
+.post .cuerpoarticulo{
+    box-sizing: border-box;
+    width: 80%;
+    height: 12em;
+    margin-left: 1.5em;
+    margin-bottom: 3em;
+    background-size: cover;
+    border-radius: 100em;
+    border: 0.5em solid #ffffff;
+}
+
+.post .cuerpoarticulo, #conjuntos{
+    background-image: url(../imagen/conjuntos.jpg);
+}
+
+.post .cuerpoarticulo, #moda{
+    background-image: url(../imagen/NewAge.jpg);
+}
+
+.post .cuerpoarticulo, #relojmujer{
+    background-image: url(../imagen/moda.jpg);
+}
+
+.post .cuerpoarticulo, #complementos{
+    background-image: url(../imagen/tendencias.jpg);
+}
+
+.post .cuerpoarticulo, #bolsos{
+    background-image: url(../imagen/bolsos.jpg);
+}
+
+.post .cuerpoarticulo, #relojhombre{
+    background-image: url(../imagen/relojeria.jpeg);
+}
+
+.piepagina{
+    position: relative;
+    clear: both;
+    width: 100%;
+    background-image: url(../imagen/banner.jpg);
+    height: 80px;
+    text-align: center;
+}
+
+.piepagina header, h5, h6{
+    position: relative;
+    font-family: 'Great Vibes', cursive;
+    font-size:1.1em;
+    padding-top: 0.2em;
+    color:#8e8e8e;
+    text-decoration: none; 
+}
+
+a{
+    text-decoration: none;
+}
+
+a:visited{
+    text-decoration: none;
+}
+
+
+/*Media Queries*/
+
+
+@media screen and (min-width:780px) and (max-width:1024px){
+    
+    .encabezado{
+        border-bottom: 0.4em solid #ac9b71;
+    }
+    
+    .encabezado .titulobanner h3{
+        width: 32%;  
+    }
+    
+    #push{
+        visibility: visible;
+        position: absolute;
+        height: 3em;
+        width: 5em;
+        left: 0em;
+        top: 0em;
+    }
+    
+    .navegation{
+        width: 10%;
+        background-image:url(../imagen/iconodesplegable.png);
+        background-position: top left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        position: absolute;
+        border: none;
+        border-left: 0.5em solid #ac9b71;
+    }
+    
+    .navegation ul{
+        left: 0;
+        padding-top: 2.8em;
+        border: 0em;
+        border-left: 0em solid #ac9b71;
+    }
+                
+    .navegation li{
+        width: 100%;
+        display:block;
+        float: left;
+        background-image: url(../imagen/banner.jpg);
+        visibility: hidden;
+    }
+    
+    .navegation:hover li{
+        visibility: visible;
+    }
+    
+    .seccion1{
+        width:100%;
+        margin-top: 3em;
+    }
+    
+    .seccion1 img{
+        align-self: auto;
+        max-width: 50%;
+    }
+    
+    .post{
+        margin: 1em 1em 1em 2em;
+        padding: 1em 1em;
+        width: 38%;
+    }  
+}
+
+@media screen and (min-width:480px) and (max-width:880px){
+    .encabezado .titulobanner h1{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 0.3em;
+        left: 0.3em;
+    }
+    
+   .encabezado .titulobanner h3{
+        position: relative;
+        top: 4.7em;
+        width: 32.5%;  
+        padding: 0em;
+        font-size: 1.5em;
+    }
+    
+     .encabezado{
+        border-bottom: 0.4em solid #ac9b71;
+    }
+    
+    .contenido{
+        background-image: url(../imagen/fondobody.jpg);
+        background-size: contain;
+    }
+    
+    .seccion1{ 
+        width: 100%;
+        margin-top: 3em;
+    }
+    
+    .seccion img{
+        width: 100%;
+        float: left;
+    }
+    
+    #push{
+        visibility: visible;
+        position: absolute;
+        height: 3em;
+        width: 5em;
+        left: 0em;
+        top: 0em;
+    }
+    
+    .navegation{
+        width: 17%;
+        background-image:url(../imagen/iconodesplegable.png);
+        background-position: top left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        position: absolute;
+        border: 0em;
+    }
+    
+    .navegation ul{
+        left: 0;
+        padding-top: 2.8em;
+        border-left: 0.5em solid #ac9b71;
+        z-index: 999;
+    }
+    
+    .navegation li{
+        width: 100%;
+        text-align: center;
+        display:block;
+        float: left;
+        background-image: url(../imagen/banner.jpg); 
+        visibility: hidden;
+        border-right: 0.3em solid #000000;
+        border-left: 0.3em solid #000000;
+    }
+    
+    .navegation:hover li{
+        visibility: visible;
+    }
+    
+    .seccion1{
+        margin-top: 3em;
+        margin-bottom: 1.7em;
+    }
+    
+    .post{
+        position: relative;
+        margin-left: 3.5em;
+        width: 80%;
+    }
+    
+    .post .cuerpoarticulo{
+        margin-left: 3em;
+    }
+    
+    .post:hover{
+        transform: none;
+    }   
+}
+
+@media screen and (max-width:480px){
+    
+    .encabezado, .encabezado .titulobanner h1, h3{
+        margin: 0;
+        padding: 0;
+    }
+    
+     .encabezado{
+        border-bottom: 0.4em solid #ac9b71;
+        width: 100%;
+    }
+    
+    .encabezado h1{
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        top: 0.3em;
+        left: 0.3em;
+        font-size: 1.2em;
+    }
+    
+    .encabezado .titulobanner h3{
+    visibility: hidden;
+    }
+    
+    .contenido{
+        background-image: url(../imagen/fondobody.jpg);
+        background-size: contain;
+    }
+    
+    #push{
+        visibility: visible;
+        position: absolute;
+        height: 3em;
+        width: 5em;
+        left: 0em;
+        top: 0em;
+    }
+    
+    .navegation{
+        width: 20%;
+        background-image:url(../imagen/iconodesplegable.png);
+        background-position: top left;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-color: transparent;
+        position: absolute;
+        border:none;
+    }
+    
+    .navegation ul{
+        left: 0;
+        padding-top: 2.8em;
+        border-left: 0.5em solid #ac9b71;
+    }
+    
+    .navegation li{
+        width: 100%;
+        text-align: center;
+        display:block;
+        float: left;
+        background-image: url(../imagen/banner.jpg); 
+        visibility: hidden;
+        border-right: 0.3em solid #000000;
+        border-left: 0.3em solid #000000;
+        font-size: 0.8em;
+    }
+    
+    .navegation:hover li{
+        visibility: visible;
+    }
+    
+    .seccion1{
+        margin-top: 3em;
+        margin-bottom: 5em;
+    }
+    
+    .seccion1 img{
+        width: 100%;
+    }
+    
+    .post{
+        width: 100%;
+        margin-left: -0.5em;
+        padding-left: 0em;
+        padding-right: 0em;
+    }
+    
+    .post .cuerpoarticulo{
+        margin-left: 2em;
+    }
+    
+    .post:hover{
+        transform: none;
+    }
+    
+}
+    
+    @media screen and (max-width:360px){
+        
+        #push{
+        visibility: visible;
+        position: absolute;
+        height: 3em;
+        width: 5em;
+        left: 0em;
+        top: 0em;
+        }   
+        
+        .navegation{
+            background-color: black;
+            height: 3em;
+            width: 6em;
+        }
+        
+        .navegation ul{
+            height: 0.3em;
+        }   
+        
+        .navegation ul:hover{
+            height: 0.3em;
+        }
+        
+        .contenido{
+            margin-top: 2.5em;
+        } 
+        
+        .post:hover{
+        transform: none;
+    } 
+}
